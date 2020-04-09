@@ -1,0 +1,109 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #AAD8E6;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+header { 
+    margin: 50px auto;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    margin: 2% auto 0;
+    padding: 5%;
+    border-radius: 25px 25px 25px 0px;
+    
+
+
+}
+
+form h3 {
+    font-size: 20px;
+    color: #083e9e;
+    margin: 1% 0%;
+}
+
+form p {
+    color: #96afcf;
+    margin-bottom: 5%;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.input {
+    margin: 5%;
+    clear: both;
+    
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 0;
+    color: #4a5568;
+  font-size: 12px;
+  font-weight: 600;
+
+
+}
+
+
+
+
+    input, select {
+        width: 100%;
+        padding: 15px 10px;
+        margin: 5px 0 20px;
+        display: inline-block;
+        background-color: #edf2f7;
+        /* border: 1px solid #ccc; */
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        box-sizing: border-box;
+
+}
+
+input[placeholder] {
+    font-size: 15px;
+    color:#4a5568;
+}
+
+input[type=submit] {
+    width: 90%;
+    background-color: #083e9e;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+    margin: 5px auto 0;
+    border-radius: 15px 10px 10px 0px;
+}
+
+input[type=submit]:hover {
+    background-color: #022157d8;
+}
+
+footer {
+    margin: 30px 50px;
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+footer a:hover {
+    opacity: 0.5;
+}
+
